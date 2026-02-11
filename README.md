@@ -1,4 +1,4 @@
-# Internship Task: Flexbox - Card Layout
+# Internship Task: Flexbox Card Layout
 
 ### Objective
 
