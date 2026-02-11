@@ -24,7 +24,7 @@ Your webpage must include:
 
 ### Sample
 
-![Cities in Teybot - Flexbox Cards](images/screenshot.png)
+![Cities in Teyvat - Flexbox Cards](images/screenshot.png)
 
 ### Task Guidelines
 
