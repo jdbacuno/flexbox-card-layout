@@ -74,6 +74,7 @@ h1 {
 
 .image-title {
   font-size: clamp(1.2rem, 5vw, 1.5rem);
+  padding: 0.4rem 0;
 }
 
 @media (min-width: 640px) {
