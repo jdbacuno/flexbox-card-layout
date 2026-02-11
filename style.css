@@ -1,0 +1,116 @@
+/* ============= GLOBAL CSS =============== */
+
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 100%;
+}
+
+body {
+  background: #f0f9ff;
+  color: rgba(8, 47, 73, 0.9);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+  padding: 3rem 0;
+}
+
+h1 {
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.container {
+  max-width: 1280px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  padding: 0 0.5rem;
+}
+
+.image-container {
+  height: auto;
+  background: #fff;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.8rem;
+  flex: 1 1 300px;
+  margin: 0 0.5rem;
+  box-shadow: 0 0 4px rgba(3, 7, 18, 0.149);
+  transition: transform 0.3s ease-in;
+  cursor: pointer;
+}
+
+.image-container:hover {
+  transform: scale(1.02);
+}
+
+.img {
+  width: 100%;
+  height: 250px;
+  display: block;
+  object-fit: cover;
+  border-radius: 0.5rem;
+  transition: filter 0.3s ease;
+}
+
+.img:hover {
+  filter: brightness(1.1);
+}
+
+.image-title {
+  font-size: clamp(1.2rem, 5vw, 1.5rem);
+}
+
+@media (min-width: 640px) {
+  .container {
+    flex-direction: row;
+  }
+
+  .image-container {
+    margin: 0;
+    padding: 0.4rem;
+  }
+
+  .img {
+    height: 200px;
+  }
+
+  .image-title {
+    font-size: 1.5rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    flex-direction: row;
+  }
+
+  .image-container {
+    margin: 0;
+    padding: 0.8rem;
+  }
+
+  .img {
+    height: auto;
+  }
+
+  .image-title {
+    font-size: 1.5rem;
+  }
+}
